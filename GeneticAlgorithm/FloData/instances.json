@@ -1,0 +1,26 @@
+[
+    {
+        "dimX":3,
+        "dimY":3,
+        "name":"EASY",
+        "machinesNumb":9,
+        "flow_path":"FloData/easy_flow.json",
+        "cost_path":"FloData/easy_cost.json"
+    },
+    {
+        "dimX":1,
+        "dimY":12,
+        "name":"FLAT",
+        "machinesNumb":12,
+        "flow_path":"FloData/flat_flow.json",
+        "cost_path":"FloData/flat_cost.json"
+    },
+    {
+        "dimX":5,
+        "dimY":6,
+        "name":"HARD",
+        "machinesNumb":24,
+        "flow_path":"FloData/hard_flow.json",
+        "cost_path":"FloData/hard_cost.json"
+    }
+]
