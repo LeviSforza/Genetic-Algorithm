@@ -291,9 +291,9 @@ def avg_random(instance, population_size):
 
 
 if __name__ == '__main__':
-    # genetic_algorithm_tournament(instances[2], 200, 3, 0.1, 0.9, 300)
-    # avg_tournament(instances[0], 500, 3, 0.1, 0.8, 100)
+    genetic_algorithm_tournament(instances[2], 200, 3, 0.1, 0.9, 300)
+    avg_tournament(instances[0], 500, 3, 0.1, 0.8, 100)
     print('\n')
-    # genetic_algorithm_roulette(instances[2], 200, 0.1, 0.9, 300)
+    genetic_algorithm_roulette(instances[2], 200, 0.1, 0.9, 300)
     avg_roulette(instances[2], 100, 0.1, 0.8, 300)
-    # avg_random(instances[1], 1000)
+    avg_random(instances[1], 1000)
