@@ -1,2 +1,4 @@
 # Genetic-Algorithm
 Implementation of genetic algorithm for Facility Layout Optimalization
+
+Genetic algorithms are often used to solve design problems. In our task we will deal with the problem of Facility Layout Optimalization. In order to better visualize the translation of FLO into a genetic algorithm, appropriate concepts should be assigned. The most important concepts for solving the problem are: genotype, phenotype and individual. The key to the correct operation of the algorithm is the correct definition of the individual, which in our case will be a single grid for setting up all machines. In the context of the FLO problem, we can assume that the phenotype is a visual representation of our grid with machines deployed. A genotype is the coding of such a mesh programmatically. We will define the population on which we will operate as a set of grids with the arrangement of machines.
